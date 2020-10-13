@@ -1,0 +1,132 @@
+html, 
+.title{
+    background-color: lightgrey;
+    font-color: indigo;
+    font-family:'Helvetica', serif;
+    font-style:oblique;
+    font-size: 18px
+}
+h1 {
+    background-color: lightgrey;
+    font-color: indigo;
+    font-family:'Helvetica', serif;
+    font-style:oblique;
+    font-size: 33px
+} 
+h2 {
+    background-color:lightgrey;
+    font-color:indigo;
+    font-family: 'Helvetica', serif;
+    font-style: oblique;
+    font-size: 33px
+}
+body {
+    margin: 11;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Helvetica', sans-serif;
+    color: darkblue;
+}
+
+body {
+    background-color: lightsteelblue;
+}
+image {
+    width: 300px;
+        height: 200px;
+}
+
+.top-bar {
+    max-width: 900px;
+    position: center;
+    margin-left: auto;
+    margin-right: inherit;
+}
+
+.logo {
+   font-size: 42px;
+   position: absolute;
+   padding: 11px 11px e11px 11px;
+   z-index: 3;
+    background-color: lightgrey;
+   color: indigo;
+   font-weight: bold;
+}
+
+.top-menu {
+   background-color: whitesmoke;
+   position: static;
+   top: 20px;
+   z-index: 2;
+   width: 100%;
+}
+
+.top-menu ul {
+    list-style-type: georgian;
+    font-size: 20px; 
+    float: right;
+    margin-right: 2px;
+    margin-bottom: auto;
+}
+
+.top-menu li {
+    display: inline-flex;
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+    color: ;
+    text-decoration: inherit;
+    padding: 20px 20px 20px 20px;
+}
+
+.top-menu li a:hover {
+    background-color: deepskyblue;
+}
+
+.current-page-link {
+    background-color: deepskyblue;
+}
+
+.page-content {
+    position: relative;
+    top: 145px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ;
+    z-index: 1;
+}
+
+.main-section {
+    padding: 10px 20px 10px 20px;
+}
+
+.main-section h1, .main-section h2 {
+    color: indigo;
+}
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+.footer {
+    position: relative;
+    top: 140px;
+    z-index: 3;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#3f3c3c;
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: indigo;
+    background-color: lightblue
+}
+
+.footer-content a:link {
+    color: indigo;
+    text-decoration: underline;
+}
